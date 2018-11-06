@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<section id="pagLogin" class="visivel"> <!-- página de login -->
+			<h1><img src=" ">Logo aqui</h1>
+			<p>Login</p> <input type="text" id="login">
+			<p>Senha</p> <input type="password" id="senha">
+			<p><input type="button"  value="Entrar" onclick="logar()"></p> <!--Botão para logar-->
+			<p><input type="button" onclick="cadastrar()" value="Cadastrar"></p> <!--Botão para cadastrar-->
+			<a href="">Termos de uso</a>
+</section>
+
+<section id="pagCadastro" class="invisivel">
+        <h1>Cadastro</h1>
+		<h1><img src=" ">Logo aqui</h1>
+		<p>Nome:</p> 
+		<input type="text" id="nome">
+
+		<p>Data de nascimento</p>
+		<p><input type="date" id="dataNascimento"></p>
+
+		<p>E-mail</p>
+		<input type="email" id="email">
+
+		<p>Senha</p> 
+		<input type="password" id="senha">
+
+		<p>Confimar senha</p> 
+		<input type="password" id="comfirmarSenha">
+
+		<p><input type="button" onclick="salvar()" value="Salvar"></p>
+		<p><input type="button" onclick="voltar()"value="Voltar"></p>
+</section>
+
+<section id="pagEditar" class="invisivel">
+		<h1>Editar usuario</h1>
+		<h1><img src=" ">Logo aqui</h1>
+		<p>Nome:</p> 
+		<input type="text" id="nome">
+
+		<p>Senha</p>
+		<input type="password" id="senha">
+
+		<p>E-mail</p>
+		<input type="email" id="email">
+
+		<p><input type="button" onclick="editar()" value="Editar"></p>
+		<p><input type="button" onclick="voltar()"value="Voltar"></p>
+		<!-- <p><input type="button" onclick="excluirConta()" value="Excluir conta"></p> pode não ter-->
+</section>
+
+<section>
+	<h1>Pagina Usuario</h1>
+	<h1><img src=" ">Foto usuario aqui</h1>
+	<h2>Nome</h2>
+	<ul>
+		<li><a href="">EDITAR</a></li>
+		<li><a href="" id="qpalavra">QUANT PALAVRAS</a></li>
+		<li><a href="">Hrs Usando</a></li>
+	</ul>
+</section>
+
+</body>
+</html>
